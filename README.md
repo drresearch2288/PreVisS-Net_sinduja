@@ -73,8 +73,6 @@ python scripts/reproduce_all.py --smoke --stages download,prepare,preprocess,spl
 
 ## 🔬 Full Reproduction Pipeline
 
-To reproduce all 14 publication figures, 4 manuscript tables, edge latency benchmarks, and the provenance verification checklist in a single command:
-
 ```bash
 python scripts/reproduce_all.py --stages all --config configs/config.yaml --seed 42
 ```
@@ -135,21 +133,7 @@ PreVisS-Net is designed to be fully hardware- and device-agnostic via `previssne
 
 ---
 
-## 📑 Citation
 
-If you use PreVisS-Net in your research or application, please cite our manuscript:
-
-```bibtex
-@article{previssnet2026,
-  title={PreVisS-Net: A Multimodal, Domain-Generalizable Pre-Visual Stress Sensing Network for UAV-Based Early Detection of Crop Stress},
-  author={PreVisS-Net Research Consortium},
-  journal={Computers and Electronics in Agriculture},
-  year={2026},
-  volume={228},
-  pages={109852},
-  doi={10.5281/zenodo.10827394},
-  url={https://doi.org/10.5281/zenodo.10827394}
-}
 ```
 
 ---
