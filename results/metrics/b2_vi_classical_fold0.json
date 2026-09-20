@@ -1,0 +1,17 @@
+{
+  "run_fingerprint": {
+    "model": "b2_vi_classical",
+    "fold": 0,
+    "seed": 42,
+    "scaler_sha256": "270a5345909c2f94769c668424938a0a4377629c628a9559754951f02b5b1094",
+    "wall_clock_seconds": 2.4895629170023312,
+    "smoke": true,
+    "timestamp": "2026-08-27T16:43:50.862150"
+  },
+  "metrics": {
+    "val_f1_water": 1.0,
+    "val_roc_auc": 0.5,
+    "val_acc": 1.0,
+    "latency_ms": 21.14341649939888
+  }
+}

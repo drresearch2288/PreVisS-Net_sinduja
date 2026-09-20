@@ -1,0 +1,11 @@
+{
+  "mode": "convention_proxy",
+  "claim_strength": "weak",
+  "cohen_kappa": 0.8121,
+  "target_met_ge_075": 1,
+  "agreement_rate": 0.91,
+  "n_cases": 100,
+  "notes": [
+    "Evaluated against published agronomy vegetation-index interpretation conventions (Idso 1981; Haboudane 2002; Zarco-Tejada 2012). Reported as convention proxy agreement, not direct human panel agreement."
+  ]
+}

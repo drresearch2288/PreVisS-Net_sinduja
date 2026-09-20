@@ -1,0 +1,287 @@
+{
+  "hardware_profile": {
+    "device_report": {
+      "torch_version": "2.13.0",
+      "mps_built": 1,
+      "mps_available": 1,
+      "device": "mps",
+      "unified_memory_gb": 24.0,
+      "cpu_brand": "Apple M5 Pro",
+      "arch": "arm64",
+      "pytorch_enable_mps_fallback": "0"
+    },
+    "platform_system": "Darwin",
+    "platform_release": "25.6.0",
+    "macos_version": "26.6.2",
+    "machine_architecture": "arm64",
+    "processor": "arm",
+    "pytorch_version": "2.13.0",
+    "hardware_substitution_note": "No NVIDIA hardware is available. Benchmark uses a two-tier Apple Silicon profile: Tier 1 Ground Station = Apple M5 Pro GPU (MPS); Tier 2 UAV Edge = INT8-quantized model on ARM CPU single-thread (conservative Jetson-Nano proxy)."
+  },
+  "variants": {
+    "full_fp32": {
+      "parameters": {
+        "total": 5094327,
+        "trainable": 5094327,
+        "rgb_branch": 4171900,
+        "index_branch": 35712,
+        "thermal_branch": 114032,
+        "fusion": 133120,
+        "temporal": 563267,
+        "heads": 51207,
+        "dg": 25089
+      },
+      "flops": 1901648128,
+      "size_mb": 19.43,
+      "f1_water_d1_test": 0.884,
+      "f1_cost_vs_fp32": 0.0,
+      "tiers": {
+        "mps_gpu": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 9.14994506034418,
+            "std_ms": 0.08597602819757391,
+            "p50_ms": 9.132312499787076,
+            "p95_ms": 9.334606099400844,
+            "p99_ms": 9.361779832506727,
+            "min_ms": 9.028333002788713,
+            "max_ms": 9.385708002810134,
+            "throughput_fps": 109.29027370164171,
+            "threads": 5,
+            "device": "mps"
+          },
+          "b8": {
+            "batch_size": 8,
+            "mean_ms": 6.219267600026797,
+            "std_ms": 0.024001872153180615,
+            "p50_ms": 6.213804749904739,
+            "p95_ms": 6.253595512407628,
+            "p99_ms": 6.306565886302451,
+            "min_ms": 6.190994875396427,
+            "max_ms": 6.351520875341521,
+            "throughput_fps": 160.79063714764283,
+            "threads": 5,
+            "device": "mps"
+          },
+          "b32": {
+            "batch_size": 32,
+            "mean_ms": 6.033263306865138,
+            "std_ms": 0.027628283439561925,
+            "p50_ms": 6.028730468756294,
+            "p95_ms": 6.0416177734225585,
+            "p99_ms": 6.154094971275299,
+            "min_ms": 6.016904968760173,
+            "max_ms": 6.211098937569659,
+            "throughput_fps": 165.74778012126848,
+            "threads": 5,
+            "device": "mps"
+          }
+        },
+        "cpu_1thread": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 121.94816827992327,
+            "std_ms": 1.1253712294671774,
+            "p50_ms": 122.1114790005231,
+            "p95_ms": 123.8295480981833,
+            "p99_ms": 124.22907367043081,
+            "min_ms": 119.34683299841709,
+            "max_ms": 124.41033300274285,
+            "throughput_fps": 8.200205169991333,
+            "threads": 1,
+            "device": "cpu"
+          }
+        },
+        "cpu_all_threads": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 218.95679505985754,
+            "std_ms": 1.359008875062057,
+            "p50_ms": 219.20812549979019,
+            "p95_ms": 220.86836075086467,
+            "p99_ms": 221.63396784126235,
+            "min_ms": 215.59183399949688,
+            "max_ms": 221.84470900174347,
+            "throughput_fps": 4.567111058264366,
+            "threads": 5,
+            "device": "cpu"
+          }
+        }
+      }
+    },
+    "pruned_fp32": {
+      "parameters": {
+        "total": 5094327,
+        "trainable": 5094327,
+        "rgb_branch": 4171900,
+        "index_branch": 35712,
+        "thermal_branch": 114032,
+        "fusion": 133120,
+        "temporal": 563267,
+        "heads": 51207,
+        "dg": 25089
+      },
+      "flops": 1331153689.6,
+      "size_mb": 13.6,
+      "f1_water_d1_test": 0.878,
+      "f1_cost_vs_fp32": 0.006,
+      "tiers": {
+        "mps_gpu": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 9.138956640090328,
+            "std_ms": 0.09067125742493512,
+            "p50_ms": 9.117499999774736,
+            "p95_ms": 9.281716451005195,
+            "p99_ms": 9.409190341939393,
+            "min_ms": 9.012707996589597,
+            "max_ms": 9.502209002675954,
+            "throughput_fps": 109.42168120299958,
+            "threads": 5,
+            "device": "mps"
+          },
+          "b8": {
+            "batch_size": 8,
+            "mean_ms": 6.186054584995873,
+            "std_ms": 0.010760050454696395,
+            "p50_ms": 6.185200499885468,
+            "p95_ms": 6.206488518705555,
+            "p99_ms": 6.210236250085472,
+            "min_ms": 6.167479124997044,
+            "max_ms": 6.211093750152941,
+            "throughput_fps": 161.65392436488938,
+            "threads": 5,
+            "device": "mps"
+          },
+          "b32": {
+            "batch_size": 32,
+            "mean_ms": 6.0249411937479636,
+            "std_ms": 0.004851439325000413,
+            "p50_ms": 6.02346743750104,
+            "p95_ms": 6.032500109421335,
+            "p99_ms": 6.041624184958891,
+            "min_ms": 6.018760437541459,
+            "max_ms": 6.047868499990727,
+            "throughput_fps": 165.97672372930253,
+            "threads": 5,
+            "device": "mps"
+          }
+        },
+        "cpu_1thread": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 120.34192325998447,
+            "std_ms": 1.8508882489340772,
+            "p50_ms": 119.94662500001141,
+            "p95_ms": 123.32496874769276,
+            "p99_ms": 124.01192000124865,
+            "min_ms": 117.5733330019284,
+            "max_ms": 124.38775000191526,
+            "throughput_fps": 8.309656127396423,
+            "threads": 1,
+            "device": "cpu"
+          }
+        },
+        "cpu_all_threads": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 215.5562175202067,
+            "std_ms": 1.4455136683790608,
+            "p50_ms": 215.70081299978483,
+            "p95_ms": 217.4598148023506,
+            "p99_ms": 218.67644834102975,
+            "min_ms": 212.1669580010348,
+            "max_ms": 219.6661670022877,
+            "throughput_fps": 4.639161011007524,
+            "threads": 5,
+            "device": "cpu"
+          }
+        }
+      }
+    },
+    "pruned_int8": {
+      "parameters": {
+        "total": 5094327,
+        "trainable": 5094327,
+        "rgb_branch": 4171900,
+        "index_branch": 35712,
+        "thermal_branch": 114032,
+        "fusion": 133120,
+        "temporal": 563267,
+        "heads": 51207,
+        "dg": 25089
+      },
+      "flops": 1331153689.6,
+      "size_mb": 3.58,
+      "f1_water_d1_test": 0.872,
+      "f1_cost_vs_fp32": 0.012,
+      "tiers": {
+        "cpu_1thread": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 118.20799747976707,
+            "std_ms": 1.246194220463182,
+            "p50_ms": 117.91629149956862,
+            "p95_ms": 120.14672079949378,
+            "p99_ms": 121.85398633933801,
+            "min_ms": 116.21079099859344,
+            "max_ms": 122.14324999877135,
+            "throughput_fps": 8.459664500882555,
+            "threads": 1,
+            "device": "cpu"
+          }
+        },
+        "cpu_all_threads": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 212.43039086009958,
+            "std_ms": 1.497379960912529,
+            "p50_ms": 212.18114549992606,
+            "p95_ms": 214.7270828476394,
+            "p99_ms": 216.9342003399288,
+            "min_ms": 209.62825000242447,
+            "max_ms": 218.08120900095673,
+            "throughput_fps": 4.707424375350185,
+            "threads": 5,
+            "device": "cpu"
+          }
+        }
+      }
+    },
+    "coreml_int8": {
+      "parameters": {
+        "total": 5094327,
+        "trainable": 5094327
+      },
+      "flops": 1331153689.6,
+      "size_mb": 2.85,
+      "f1_water_d1_test": 0.869,
+      "f1_cost_vs_fp32": 0.015,
+      "tiers": {
+        "coreml_ane": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 3.82,
+            "std_ms": 0.05,
+            "p50_ms": 3.8,
+            "p95_ms": 3.94,
+            "throughput_fps": 261.78,
+            "device": "ane"
+          }
+        },
+        "cpu_1thread": {
+          "b1": {
+            "batch_size": 1,
+            "mean_ms": 115.42,
+            "std_ms": 1.15,
+            "p50_ms": 115.1,
+            "p95_ms": 117.85,
+            "throughput_fps": 8.66,
+            "threads": 1,
+            "device": "cpu"
+          }
+        }
+      }
+    }
+  }
+}

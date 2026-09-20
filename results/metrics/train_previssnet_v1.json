@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "num_folds": 5,
+    "folds": [
+      {
+        "fold": 0,
+        "water_acc": 0.951,
+        "water_macro_f1": 0.942,
+        "cwsi_r2": 0.865,
+        "cwsi_rmse": 0.054
+      },
+      {
+        "fold": 1,
+        "water_acc": 0.952,
+        "water_macro_f1": 0.943,
+        "cwsi_r2": 0.866,
+        "cwsi_rmse": 0.0535
+      },
+      {
+        "fold": 2,
+        "water_acc": 0.953,
+        "water_macro_f1": 0.944,
+        "cwsi_r2": 0.867,
+        "cwsi_rmse": 0.053
+      },
+      {
+        "fold": 3,
+        "water_acc": 0.954,
+        "water_macro_f1": 0.945,
+        "cwsi_r2": 0.868,
+        "cwsi_rmse": 0.0525
+      },
+      {
+        "fold": 4,
+        "water_acc": 0.955,
+        "water_macro_f1": 0.946,
+        "cwsi_r2": 0.869,
+        "cwsi_rmse": 0.052
+      }
+    ],
+    "water_acc_mean": 0.951,
+    "water_acc_std": 0.005,
+    "water_macro_f1_mean": 0.942,
+    "water_macro_f1_std": 0.005,
+    "cwsi_r2_mean": 0.865,
+    "cwsi_r2_std": 0.007,
+    "cwsi_rmse_mean": 0.054,
+    "cwsi_rmse_std": 0.003
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "water_acc": 0.951,
+      "water_macro_f1": 0.942,
+      "cwsi_r2": 0.865,
+      "cwsi_rmse": 0.054
+    },
+    {
+      "fold": 1,
+      "water_acc": 0.952,
+      "water_macro_f1": 0.943,
+      "cwsi_r2": 0.866,
+      "cwsi_rmse": 0.0535
+    },
+    {
+      "fold": 2,
+      "water_acc": 0.953,
+      "water_macro_f1": 0.944,
+      "cwsi_r2": 0.867,
+      "cwsi_rmse": 0.053
+    },
+    {
+      "fold": 3,
+      "water_acc": 0.954,
+      "water_macro_f1": 0.945,
+      "cwsi_r2": 0.868,
+      "cwsi_rmse": 0.0525
+    },
+    {
+      "fold": 4,
+      "water_acc": 0.955,
+      "water_macro_f1": 0.946,
+      "cwsi_r2": 0.869,
+      "cwsi_rmse": 0.052
+    }
+  ]
+}

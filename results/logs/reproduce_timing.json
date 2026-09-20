@@ -1,0 +1,21 @@
+{
+  "run_fingerprint": {
+    "timestamp_utc": "2026-08-28T04:20:21.416561+00:00",
+    "git_commit": "git_sha_unavailable",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python_version": "3.11.14",
+    "torch_version": "2.13.0",
+    "mps_available": true,
+    "mps_built": true,
+    "seed": 42,
+    "config": "configs/config.yaml",
+    "smoke": false
+  },
+  "stages": {
+    "verify": {
+      "status": "COMPLETED",
+      "duration_sec": 0.0018122196197509766
+    }
+  },
+  "total_wall_clock_sec": 0.0060727596282958984
+}

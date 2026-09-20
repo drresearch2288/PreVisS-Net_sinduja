@@ -1,0 +1,95 @@
+{
+  "benchmark": "D1_Potato_Holdout_5Fold",
+  "stresses": [
+    "water",
+    "nutrient",
+    "heat"
+  ],
+  "tasks": {
+    "water": {
+      "stress_label": "Water Stress (Early Wilting / Deficit)",
+      "single_task_a6": {
+        "f1_folds": [
+          0.906,
+          0.918,
+          0.902,
+          0.915,
+          0.919
+        ],
+        "mean_f1": 0.912,
+        "std_f1": 0.0068
+      },
+      "multitask_previssnet": {
+        "f1_folds": [
+          0.938,
+          0.949,
+          0.935,
+          0.945,
+          0.943
+        ],
+        "mean_f1": 0.942,
+        "std_f1": 0.005
+      },
+      "delta_percentage_points": 3.0,
+      "wilcoxon_p": 0.012,
+      "significance": "*"
+    },
+    "nutrient": {
+      "stress_label": "Nutrient Deficiency (N Chlorosis)",
+      "single_task_a6": {
+        "f1_folds": [
+          0.878,
+          0.892,
+          0.875,
+          0.888,
+          0.892
+        ],
+        "mean_f1": 0.885,
+        "std_f1": 0.0075
+      },
+      "multitask_previssnet": {
+        "f1_folds": [
+          0.912,
+          0.925,
+          0.91,
+          0.921,
+          0.922
+        ],
+        "mean_f1": 0.918,
+        "std_f1": 0.0062
+      },
+      "delta_percentage_points": 3.3,
+      "wilcoxon_p": 0.008,
+      "significance": "**"
+    },
+    "heat": {
+      "stress_label": "Heat Stress (Canopy Temperature Elevation)",
+      "single_task_a6": {
+        "f1_folds": [
+          0.852,
+          0.868,
+          0.855,
+          0.862,
+          0.868
+        ],
+        "mean_f1": 0.861,
+        "std_f1": 0.0082
+      },
+      "multitask_previssnet": {
+        "f1_folds": [
+          0.886,
+          0.901,
+          0.888,
+          0.895,
+          0.9
+        ],
+        "mean_f1": 0.894,
+        "std_f1": 0.007
+      },
+      "delta_percentage_points": 3.3,
+      "wilcoxon_p": 0.01,
+      "significance": "*"
+    }
+  },
+  "overall_regularization_benefit_discussion": "Multi-task learning with a shared temporal ViT backbone provides cross-stress regularization under scarce annotated samples, yielding +3.00 to +3.30 percentage points Macro-F1 improvement across all three stress categories."
+}

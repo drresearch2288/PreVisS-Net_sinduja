@@ -1,0 +1,16 @@
+{
+  "run_fingerprint": {
+    "model": "a6_no_multitask",
+    "fold": 0,
+    "seed": 42,
+    "scaler_sha256": "270a5345909c2f94769c668424938a0a4377629c628a9559754951f02b5b1094",
+    "wall_clock_seconds": 2.655397124999581,
+    "smoke": true,
+    "timestamp": "2026-08-27T16:46:16.974021"
+  },
+  "metrics": {
+    "val_f1_water": 0.0,
+    "val_f1_nutrient": 0.0,
+    "val_f1_heat": 0.0
+  }
+}

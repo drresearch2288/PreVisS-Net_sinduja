@@ -1,0 +1,350 @@
+{
+  "previssnet": {
+    "model_name": "previssnet",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "b1_cwsi": {
+    "model_name": "b1_cwsi",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": 0.0,
+    "median_lead_time_days": 0.0,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.5,
+    "day10_detection_rate": 0.0,
+    "per_stage_detection_rate": {
+      "10": 0.0,
+      "40": 0.85,
+      "70": 0.95
+    },
+    "by_construction": 1,
+    "target_met_ge_15days": 0,
+    "notes": [
+      "reacts only once CWSI crosses the threshold; lead time is 0 days BY CONSTRUCTION."
+    ]
+  },
+  "b2_vi_classical": {
+    "model_name": "b2_vi_classical",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "b3_stressnet": {
+    "model_name": "b3_stressnet",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "a1_rgb_only": {
+    "model_name": "a1_rgb_only",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "a2_ms_only": {
+    "model_name": "a2_ms_only",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "a3_thermal_only": {
+    "model_name": "a3_thermal_only",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "a4_no_temporal": {
+    "model_name": "a4_no_temporal",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "a5_no_dg": {
+    "model_name": "a5_no_dg",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  },
+  "a6_no_multitask": {
+    "model_name": "a6_no_multitask",
+    "dataset_key": "d3_hyperspectral",
+    "mean_lead_time_days": null,
+    "median_lead_time_days": null,
+    "std_lead_time_days": 0.0,
+    "ci95_bootstrap": [
+      null,
+      null
+    ],
+    "false_early_warning_rate": 0.0,
+    "operating_threshold": 0.95,
+    "n_plants": 1,
+    "per_stage_detection_rate": {
+      "10": null,
+      "40": null,
+      "70": null
+    },
+    "day10_detection_rate": null,
+    "target_met_ge_15days": 0,
+    "sensitivity_analysis": {
+      "persistence_1": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      },
+      "persistence_2": {
+        "operating_threshold": 0.95,
+        "mean_lead_time_days": null,
+        "false_early_warning_rate": 0.0
+      }
+    },
+    "notes": [
+      "Evaluated on staged cohort with first visible symptoms at Day 40.0. Operating threshold 0.95 selected under FEWR <= 15.0%."
+    ]
+  }
+}

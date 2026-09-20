@@ -1,0 +1,20 @@
+{
+  "run_fingerprint": {
+    "model": "a3_thermal_only",
+    "fold": 0,
+    "seed": 42,
+    "scaler_sha256": "270a5345909c2f94769c668424938a0a4377629c628a9559754951f02b5b1094",
+    "wall_clock_seconds": 0.34369354199952795,
+    "smoke": true,
+    "timestamp": "2026-08-27T16:46:10.746276"
+  },
+  "metrics": {
+    "val_loss": 0.7782304286956787,
+    "val_accuracy": 0.0,
+    "val_f1_water": 0.0,
+    "val_auc_water": 0.5,
+    "val_cwsi_r2": -8.332779991360765,
+    "val_cwsi_rmse": 0.3054959718033402,
+    "val_domain_acc": 0.5
+  }
+}

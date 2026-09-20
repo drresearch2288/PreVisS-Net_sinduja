@@ -1,0 +1,20 @@
+{
+  "run_fingerprint": {
+    "model": "a1_rgb_only",
+    "fold": 0,
+    "seed": 42,
+    "scaler_sha256": "270a5345909c2f94769c668424938a0a4377629c628a9559754951f02b5b1094",
+    "wall_clock_seconds": 4.433163666999462,
+    "smoke": true,
+    "timestamp": "2026-08-27T16:46:10.145498"
+  },
+  "metrics": {
+    "val_loss": 0.8502175211906433,
+    "val_accuracy": 0.0,
+    "val_f1_water": 0.0,
+    "val_auc_water": 0.5,
+    "val_cwsi_r2": -0.17549816591883216,
+    "val_cwsi_rmse": 0.1084203867263226,
+    "val_domain_acc": 0.5
+  }
+}

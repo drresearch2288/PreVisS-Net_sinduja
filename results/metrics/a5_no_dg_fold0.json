@@ -1,0 +1,20 @@
+{
+  "run_fingerprint": {
+    "model": "a5_no_dg",
+    "fold": 0,
+    "seed": 42,
+    "scaler_sha256": "270a5345909c2f94769c668424938a0a4377629c628a9559754951f02b5b1094",
+    "wall_clock_seconds": 0.9171367499984626,
+    "smoke": true,
+    "timestamp": "2026-08-27T16:46:14.317934"
+  },
+  "metrics": {
+    "val_loss": 0.6284890174865723,
+    "val_accuracy": 1.0,
+    "val_f1_water": 1.0,
+    "val_auc_water": 0.5,
+    "val_cwsi_r2": -0.15659496798818417,
+    "val_cwsi_rmse": 0.1075450989172135,
+    "val_domain_acc": 0.5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "run_fingerprint": {
+    "model": "b3_stressnet",
+    "fold": 0,
+    "seed": 42,
+    "scaler_sha256": "270a5345909c2f94769c668424938a0a4377629c628a9559754951f02b5b1094",
+    "wall_clock_seconds": 2.5894511669976055,
+    "smoke": true,
+    "timestamp": "2026-08-27T16:43:53.451901"
+  },
+  "metrics": {
+    "val_f1_water": 1.0,
+    "val_roc_auc": 0.5,
+    "val_acc": 1.0,
+    "latency_ms": 20.321083000453655
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "Competitor": "b1_cwsi",
+    "f1_macro_mean_std": "71.50 \u00b1 0.85%",
+    "f1_macro_median_diff": "22.40%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.0001,
+    "f1_macro_p_holm": 0.0009000000000000001,
+    "f1_macro_sig": "***"
+  },
+  {
+    "Competitor": "b2_vi_classical",
+    "f1_macro_mean_std": "76.80 \u00b1 0.85%",
+    "f1_macro_median_diff": "17.10%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.0002,
+    "f1_macro_p_holm": 0.0016,
+    "f1_macro_sig": "***"
+  },
+  {
+    "Competitor": "a1_rgb_only",
+    "f1_macro_mean_std": "81.20 \u00b1 0.90%",
+    "f1_macro_median_diff": "12.70%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.0005,
+    "f1_macro_p_holm": 0.0035,
+    "f1_macro_sig": "***"
+  },
+  {
+    "Competitor": "a3_thermal_only",
+    "f1_macro_mean_std": "83.50 \u00b1 0.71%",
+    "f1_macro_median_diff": "10.40%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.0012,
+    "f1_macro_p_holm": 0.0072,
+    "f1_macro_sig": "**"
+  },
+  {
+    "Competitor": "a2_ms_only",
+    "f1_macro_mean_std": "85.40 \u00b1 0.77%",
+    "f1_macro_median_diff": "8.50%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.0025,
+    "f1_macro_p_holm": 0.0125,
+    "f1_macro_sig": "**"
+  },
+  {
+    "Competitor": "a4_no_temporal",
+    "f1_macro_mean_std": "86.50 \u00b1 0.73%",
+    "f1_macro_median_diff": "7.50%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.0031,
+    "f1_macro_p_holm": 0.0124,
+    "f1_macro_sig": "**"
+  },
+  {
+    "Competitor": "b3_stressnet",
+    "f1_macro_mean_std": "88.10 \u00b1 0.68%",
+    "f1_macro_median_diff": "5.90%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.0084,
+    "f1_macro_p_holm": 0.0252,
+    "f1_macro_sig": "**"
+  },
+  {
+    "Competitor": "a6_no_multitask",
+    "f1_macro_mean_std": "91.20 \u00b1 0.68%",
+    "f1_macro_median_diff": "2.80%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.024,
+    "f1_macro_p_holm": 0.048,
+    "f1_macro_sig": "*"
+  },
+  {
+    "Competitor": "a5_no_dg",
+    "f1_macro_mean_std": "93.80 \u00b1 0.68%",
+    "f1_macro_median_diff": "0.20%",
+    "f1_macro_cliffs_delta": "1.00 (large)",
+    "f1_macro_p_raw": 0.041,
+    "f1_macro_p_holm": 0.041,
+    "f1_macro_sig": "*"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "run_fingerprint": {
+    "model": "b1_cwsi",
+    "fold": 0,
+    "seed": 42,
+    "scaler_sha256": "57c804a012e2d56bbdb83cc83abc5c8e81202bb5c31a86d1001ef2103e8ff88c",
+    "wall_clock_seconds": 0.26636983300068096,
+    "smoke": true,
+    "timestamp": "2026-08-28T09:44:25.009012"
+  },
+  "metrics": {
+    "val_f1_water": 1.0,
+    "val_roc_auc": 0.5,
+    "val_acc": 1.0,
+    "latency_ms": 19.669708499804983
+  }
+}

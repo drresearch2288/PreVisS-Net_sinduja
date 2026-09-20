@@ -1,0 +1,46 @@
+{
+  "study_name": "no-name-dd82a5e7-a40b-404f-bf0a-7515926606f4",
+  "best_trial_number": 0,
+  "best_value": 0.88,
+  "best_params": {
+    "encoder.rgb_backbone": "efficientnet_b0",
+    "encoder.fusion_heads": 8,
+    "encoder.fusion_dim": 128,
+    "temporal.layers": 4,
+    "temporal.heads": 8,
+    "temporal.window_k": 4,
+    "dg.lambda_schedule": "ganin",
+    "dg.lambda_max": 1.0,
+    "heads.alpha": 0.2,
+    "heads.beta": 0.2,
+    "train.optimizer": "adam",
+    "train.lr": 0.001,
+    "train.batch_size": 64
+  },
+  "n_trials": 1,
+  "trials": [
+    {
+      "number": 0,
+      "value": 0.88,
+      "state": "COMPLETE",
+      "params": {
+        "encoder.rgb_backbone": "efficientnet_b0",
+        "encoder.fusion_heads": 8,
+        "encoder.fusion_dim": 128,
+        "temporal.layers": 4,
+        "temporal.heads": 8,
+        "temporal.window_k": 4,
+        "dg.lambda_schedule": "ganin",
+        "dg.lambda_max": 1.0,
+        "heads.alpha": 0.2,
+        "heads.beta": 0.2,
+        "train.optimizer": "adam",
+        "train.lr": 0.001,
+        "train.batch_size": 64
+      },
+      "datetime_start": "2026-08-28 09:43:17.105699",
+      "datetime_complete": "2026-08-28 09:43:17.105808",
+      "duration": 0.000109
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "run_name": "test_ablations_smoke",
+  "timestamp": "2026-08-27T16:46:16.975372",
+  "models": [
+    "a1_rgb_only",
+    "a2_ms_only",
+    "a3_thermal_only",
+    "a4_no_temporal",
+    "a5_no_dg",
+    "a6_no_multitask"
+  ],
+  "folds": [
+    0
+  ],
+  "matrix": {
+    "a1_rgb_only": {
+      "fold_0": "done"
+    },
+    "a2_ms_only": {
+      "fold_0": "done"
+    },
+    "a3_thermal_only": {
+      "fold_0": "done"
+    },
+    "a4_no_temporal": {
+      "fold_0": "done"
+    },
+    "a5_no_dg": {
+      "fold_0": "done"
+    },
+    "a6_no_multitask": {
+      "fold_0": "done"
+    }
+  },
+  "training_time_seconds": {
+    "a1_rgb_only": {
+      "fold_0": 4.433163666999462
+    },
+    "a2_ms_only": {
+      "fold_0": 0.25610962499922607
+    },
+    "a3_thermal_only": {
+      "fold_0": 0.34369354199952795
+    },
+    "a4_no_temporal": {
+      "fold_0": 2.6535745420005696
+    },
+    "a5_no_dg": {
+      "fold_0": 0.9171367499984626
+    },
+    "a6_no_multitask": {
+      "fold_0": 2.655397124999581
+    }
+  }
+}
