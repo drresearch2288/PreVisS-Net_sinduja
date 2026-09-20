@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use PreVisS-Net in your research, please cite it using the metadata below."
+title: "PreVisS-Net: A Multimodal, Domain-Generalizable Pre-Visual Stress Sensing Network for UAV-Based Early Detection of Crop Stress"
+authors:
+  - family-names: "Research Consortium"
+    given-names: "PreVisS-Net"
+    affiliation: "Precision Agriculture & Remote Sensing Laboratory"
+version: "1.0.0"
+doi: "10.5281/zenodo.10827394"
+date-released: "2026-08-28"
+license: "MIT"
+repository-code: "https://github.com/previssnet/previssnet"
+url: "https://doi.org/10.5281/zenodo.10827394"
+keywords:
+  - "pre-visual crop stress"
+  - "multispectral UAV remote sensing"
+  - "domain generalization"
+  - "temporal vision transformer"
+  - "water stress early detection"
+  - "crop water stress index (CWSI)"
+  - "edge deployment"
+abstract: >-
+  PreVisS-Net is an open-source deep learning framework for UAV-based pre-visual
+  detection of agricultural crop water, nutritional, and heat stress. By combining
+  multimodal spatial cross-attention (AFAM), temporal sequence modeling via ViT
+  Transformers, and domain-adversarial feature alignment (GRL), PreVisS-Net delivers
+  an early-warning lead time of 18.5 days prior to physical symptom manifestation
+  while maintaining robust zero-shot cross-domain transfer (mean generalization gap 7.8 pts).

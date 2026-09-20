@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "previssnet"
+version = "0.1.0"
+description = "Multimodal, Domain-Generalizable Pre-Visual Stress Sensing Network for UAV-based early detection of crop stress"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "PreVisS-Net Team" }
+]
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "torchaudio",
+    "timm>=1.0.0",
+    "scikit-learn>=1.3.0",
+    "scipy>=1.11.0",
+    "pandas>=2.0.0",
+    "pyarrow>=12.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "shap>=0.42.0",
+    "captum>=0.7.0",
+    "optuna>=3.3.0",
+    "loguru>=0.7.0",
+    "hydra-core>=1.3.0",
+    "omegaconf>=2.3.0",
+    "tqdm>=4.65.0",
+    "albumentations>=1.3.0",
+    "opencv-python-headless>=4.8.0",
+    "spectral>=0.23.0",
+    "h5py>=3.9.0",
+    "coremltools>=7.0",
+    "onnx>=1.14.0",
+    "onnxruntime>=1.16.0",
+    "thop>=0.1.1",
+    "torchinfo>=1.8.0",
+    "requests>=2.31.0",
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "black>=23.7.0",
+    "pre-commit>=3.4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"

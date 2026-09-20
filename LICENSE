@@ -1,0 +1,59 @@
+MIT License
+
+Copyright (c) 2026 PreVisS-Net Research Consortium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+THIRD-PARTY DATASET LICENSING DISCLOSURE
+================================================================================
+
+The PreVisS-Net software code is licensed under the MIT License above. The benchmark
+datasets utilized for training and evaluation remain under their respective original
+licenses and terms of use:
+
+1. Dataset D1 (Potato Crop Stress - INIA Carillanca, Chile):
+   - Modality: Multispectral (Green, Red, RedEdge, NIR) + RGB
+   - Licence: Creative Commons Attribution 4.0 International (CC-BY 4.0)
+   - DOI / Reference: 10.5281/zenodo.4705128
+
+2. Dataset D2 (Slovenian UAV Agriculture - Vipava Valley, Slovenia):
+   - Modality: UAV Multispectral GeoTIFF Orthomosaics
+   - Licence: Creative Commons Attribution-NonCommercial 4.0 International (CC-BY-NC 4.0)
+   - DOI / Reference: 10.5281/zenodo.5512940
+
+3. Dataset D3 (Controlled Hyperspectral Drought Stress - ETH Zurich, Switzerland):
+   - Modality: 204-band VNIR/SWIR Hyperspectral Reflectance Signatures
+   - Licence: Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+   - DOI / Reference: 10.3929/ethz-b-000412850
+
+4. Dataset D4 (Global Nitrogen Deficiency Multi-Crop Benchmark - INRAE / Cirad):
+   - Modality: Agronomic Nitrogen Nutrition Index (NNI) + Spectral Indices
+   - Licence: Creative Commons Attribution 4.0 International (CC-BY 4.0)
+   - DOI / Reference: 10.5281/zenodo.6821945
+
+5. Dataset D5 (Global Environmental Stress Multi-Sensor Repository - Kaggle / OpenData):
+   - Modality: Environmental & Multi-Band Meteorological / Reflectance Records
+   - Licence: Open Data Commons Attribution License (ODC-By v1.0)
+   - Reference: Kaggle Open Datasets Repository
+
+6. Dataset D6 (Indian UAV Paddy Rice Field Survey - Tamil Nadu Agricultural University):
+   - Modality: UAV Micro-Spatial RGB Aerial Survey
+   - Licence: Academic Non-Commercial Research License
+   - Reference: TNAU Precision Agriculture Field Repository
