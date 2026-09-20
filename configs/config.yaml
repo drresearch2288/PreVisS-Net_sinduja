@@ -1,0 +1,20 @@
+defaults:
+  - _self_
+  - data: d1_potato
+  - model: previssnet
+  - train: default
+  - eval: same_domain
+
+project_name: previssnet
+seed: 42
+device: auto  # auto|mps|cpu -> passed to get_device()
+
+paths:
+  data_root: ./data
+  results: ./results
+  reports: ./reports
+  paper: ./paper
+
+hydra:
+  run:
+    dir: results/logs/${now:%Y-%m-%d}/${now:%H-%M-%S}

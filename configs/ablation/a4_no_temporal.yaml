@@ -1,0 +1,4 @@
+name: a4_no_temporal
+temporal:
+  enabled: false
+  window_k: 1

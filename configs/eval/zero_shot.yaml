@@ -1,0 +1,11 @@
+mode: zero_shot
+datasets: [d3_hyperspectral, d4_nitrogen, d5_kaggle_env, d6_india_paddy]
+
+targets:
+  d3_accuracy_min: 0.80
+  d4_accuracy_min: 0.75
+  d5_accuracy_min: 0.78
+  max_generalization_gap: 15.0  # percentage points
+
+outputs:
+  metrics_file: ${paths.results}/metrics/zero_shot_metrics.json

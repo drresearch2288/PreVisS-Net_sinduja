@@ -1,0 +1,19 @@
+mode: same_domain
+target_dataset: d1_potato
+split: test
+
+thresholds:
+  accuracy_min: 0.93
+  f1_min: 0.92
+  r2_cwsi_min: 0.85
+  rmse_cwsi_max: 0.06
+
+metrics:
+  classification: [accuracy, precision, recall, f1, roc_auc, pr_auc]
+  regression: [r2, rmse, mae, mape]
+
+outputs:
+  save_predictions: true
+  save_confusion_matrix: true
+  save_roc_curve: true
+  metrics_file: ${paths.results}/metrics/same_domain_metrics.json

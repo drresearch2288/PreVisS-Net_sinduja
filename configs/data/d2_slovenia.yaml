@@ -1,0 +1,14 @@
+name: d2_slovenia
+dataset_id: d2
+role: domain_val_only  # strictly enforced: domain-discriminator loss only, NEVER for task loss
+path: ${paths.data_root}/raw/d2_slovenia
+
+surveys:
+  - 2022_06_15__eko_ecobreed
+  - 2022_06_15__konv_ecobreed
+  - 2022_07_11__eko_ecobreed
+
+input:
+  img_size: 224
+  geotiff_count: 15
+  indices: [NDVI, NDRE, GNDVI, CWSI, MVI]

@@ -1,0 +1,19 @@
+name: d4_nitrogen
+dataset_id: d4
+role: zero_shot_test  # crop shift; zero-shot test of nutrient head
+path: ${paths.data_root}/raw/d4_nitrogen
+
+crops:
+  - Barley
+  - Corn
+  - Cotton
+  - Grass
+  - Miscanthus
+  - Oilseed Rape
+  - Rice
+  - Sorghum
+  - Soybean
+  - Sugarcane
+  - Wheat
+
+target_accuracy: 0.75

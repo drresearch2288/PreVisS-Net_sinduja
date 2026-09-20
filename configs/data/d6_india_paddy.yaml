@@ -1,0 +1,13 @@
+name: d6_india_paddy
+dataset_id: d6
+role: zero_shot_qualitative  # representation-transfer check only; no accuracy number reported
+path: ${paths.data_root}/raw/d6_india_paddy
+
+stages:
+  - Nursery_Stage
+  - Vegetative_Stage
+  - Booting_Stage
+  - Flowering_Stage
+  - Mature_Stage
+
+total_files: 2400

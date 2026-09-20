@@ -1,0 +1,9 @@
+name: a6_no_multitask
+# A6 is implemented as three separately trained single-task PreVisSNet instances.
+# The training runner (scripts/train_baselines.py) handles A6 explicitly:
+# it creates model instances with heads.mode = single_water / single_nutrient / single_heat.
+# build_model("a6") returns a standard joint-head PreVisSNet so that the registry
+# does not trigger the 'independent' mode ValueError (which guards direct API misuse).
+# The _no_multitask suffix signals the runner to switch to the three-model training path.
+heads:
+  mode: joint

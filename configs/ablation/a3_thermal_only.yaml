@@ -1,0 +1,5 @@
+name: a3_thermal_only
+encoder:
+  use_rgb: false
+  use_indices: false
+  use_thermal: true

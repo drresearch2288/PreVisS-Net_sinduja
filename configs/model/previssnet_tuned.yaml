@@ -1,0 +1,48 @@
+name: previssnet
+encoder:
+  use_rgb: true
+  use_indices: true
+  use_thermal: true
+  rgb_backbone: efficientnet_b0
+  rgb_pretrained: true
+  rgb_embed_dim: 128
+  index_mlp_hidden:
+  - 128
+  - 128
+  index_embed_dim: 128
+  thermal_embed_dim: 128
+  fusion_heads: 8
+  fusion_dim: 128
+  fusion_dropout: 0.1
+temporal:
+  enabled: true
+  layers: 4
+  heads: 8
+  window_k: 4
+  d_model: 128
+  ff_dim: 256
+  dropout: 0.1
+  time_encoding: irregular
+heads:
+  mode: joint
+  water:
+    type: binary_plus_regression
+    hidden: 128
+  nutrient:
+    type: multiclass
+    n_classes: 4
+    hidden: 128
+  heat:
+    type: binary
+    hidden: 128
+  alpha: 0.2
+  beta: 0.2
+  water_reg_weight: 0.5
+dg:
+  enabled: true
+  attach: fused
+  discriminator_hidden:
+  - 128
+  - 64
+  lambda_schedule: ganin
+  lambda_max: 1.0

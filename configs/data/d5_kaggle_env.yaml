@@ -1,0 +1,7 @@
+name: d5_kaggle_env
+dataset_id: d5
+role: zero_shot_test  # sensor + geography shift; zero-shot test of heat head
+path: ${paths.data_root}/raw/d5_kaggle_env
+
+records: 212019
+target_accuracy: 0.78

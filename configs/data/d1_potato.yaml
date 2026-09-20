@@ -1,0 +1,25 @@
+name: d1_potato
+dataset_id: d1
+role: train_only  # strictly enforced by previssnet.data.guards
+path: ${paths.data_root}/raw/d1_potato
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  n_folds: 5
+  seed: ${seed}
+
+input:
+  img_size: 224
+  rgb_channels: 3
+  ms_channels: 4  # Green, Red, Red-Edge, NIR
+  thermal_channels: 1  # Canopy temperature
+  indices: [NDVI, NDRE, GNDVI, CWSI, MVI]
+  k_flights: 4
+
+targets:
+  has_water_stress: true
+  has_cwsi_regression: true
+  has_nutrient: false
+  has_heat: false

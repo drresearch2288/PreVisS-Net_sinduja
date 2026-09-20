@@ -1,0 +1,13 @@
+name: d3_hyperspectral
+dataset_id: d3
+role: zero_shot_test  # modality shift; primary source of lead-time metric
+path: ${paths.data_root}/raw/d3_hyperspectral
+
+stages:
+  - Day_10
+  - Day_40
+  - Day_70
+
+target_lead_time_days: 15-20
+max_false_alarm_rate: 0.15
+target_accuracy: 0.80

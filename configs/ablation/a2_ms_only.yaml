@@ -1,0 +1,5 @@
+name: a2_ms_only
+encoder:
+  use_rgb: false
+  use_indices: true
+  use_thermal: false

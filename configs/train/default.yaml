@@ -1,0 +1,11 @@
+optimizer: adam  # explored {adam, adamw}
+lr: 1.0e-3  # explored 1e-2 .. 1e-4
+weight_decay: 1.0e-4
+scheduler: cosine
+batch_size: 64  # explored 16-128
+epochs: 100  # up to 150
+early_stopping_patience: 10
+grad_clip: 1.0
+amp: false  # MPS autocast off by default; see Phase 3.7
+num_workers: 4
+multiprocessing_context: spawn

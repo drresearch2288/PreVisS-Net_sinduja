@@ -1,0 +1,5 @@
+name: a1_rgb_only
+encoder:
+  use_rgb: true
+  use_indices: false
+  use_thermal: false

@@ -1,0 +1,48 @@
+name: previssnet
+
+encoder:
+  use_rgb: true  # set false for ablation A1 (w/o RGB)
+  use_indices: true  # set false for ablation A2 (w/o Indices)
+  use_thermal: true  # set false for ablation A3 (w/o Thermal)
+  rgb_backbone: efficientnet_b0  # chosen for parameter efficiency / edge-friendliness
+  rgb_pretrained: true
+  rgb_embed_dim: 128
+  index_mlp_hidden: [128, 128]  # branch over NDVI, NDRE, GNDVI, CWSI, MVI
+  index_embed_dim: 128
+  thermal_embed_dim: 128
+  fusion_heads: 8  # explored {4,8}
+  fusion_dim: 128  # explored {64,128}
+  fusion_dropout: 0.1
+
+temporal:
+  enabled: true  # set false for ablation A4 (snapshot mode)
+  layers: 4  # explored {2,3,4}
+  heads: 8  # explored {4,8}
+  window_k: 4  # explored {3,4,5} flights
+  d_model: 128
+  ff_dim: 256
+  dropout: 0.1
+  time_encoding: irregular  # positional encoding from real inter-flight day gaps
+
+heads:
+  mode: joint  # 'joint' (default) or 'independent' for ablation A6
+  water:
+    type: binary_plus_regression
+    hidden: 128
+  nutrient:
+    type: multiclass
+    n_classes: 4
+    hidden: 128  # N-def, P-def, K-def, normal
+  heat:
+    type: binary
+    hidden: 128
+  alpha: 0.2  # nutrient weight, explored 0.1-0.5, tuned per fold
+  beta: 0.2  # heat weight, explored 0.1-0.5, tuned per fold
+  water_reg_weight: 0.5  # weight of the CWSI regression term inside L_water
+
+dg:
+  enabled: true  # set false for ablation A5 (w/o domain adversarial training)
+  attach: fused  # 'fused' (default) or 'trend'
+  discriminator_hidden: [128, 64]
+  lambda_schedule: ganin  # lambda(t) = 2/(1+exp(-10t)) - 1
+  lambda_max: 1.0
