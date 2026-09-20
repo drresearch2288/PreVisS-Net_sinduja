@@ -1,0 +1,131 @@
+{
+  "figure_stem": "fig04_same_domain",
+  "created_at": "2026-08-28T03:41:56.521177+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig04_SameDomain",
+    "benchmark_dataset": "D1 Potato Crop Stress (15% Holdout)",
+    "target_f1": 0.92,
+    "num_models": 10,
+    "ordered_models": [
+      "b1_cwsi",
+      "b2_vi_classical",
+      "a1_rgb_only",
+      "a3_thermal_only",
+      "a2_ms_only",
+      "a4_no_temporal",
+      "b3_stressnet",
+      "a6_no_multitask",
+      "a5_no_dg",
+      "previssnet"
+    ],
+    "records": [
+      {
+        "model_key": "b1_cwsi",
+        "display_name": "B1 CWSI Thresh",
+        "order_rank": 1,
+        "accuracy_mean": 0.732,
+        "accuracy_std": 0.009011104260855055,
+        "f1_mean": 0.715,
+        "f1_std": 0.008532291603080625,
+        "significance_vs_previssnet": "***"
+      },
+      {
+        "model_key": "b2_vi_classical",
+        "display_name": "B2 VI Classical",
+        "order_rank": 2,
+        "accuracy_mean": 0.781,
+        "accuracy_std": 0.008221921916437794,
+        "f1_mean": 0.768,
+        "f1_std": 0.008508818954473066,
+        "significance_vs_previssnet": "***"
+      },
+      {
+        "model_key": "a1_rgb_only",
+        "display_name": "A1 RGB-Only",
+        "order_rank": 3,
+        "accuracy_mean": 0.8249999999999998,
+        "accuracy_std": 0.008532291603080592,
+        "f1_mean": 0.8119999999999999,
+        "f1_std": 0.009011104260855003,
+        "significance_vs_previssnet": "***"
+      },
+      {
+        "model_key": "a3_thermal_only",
+        "display_name": "A3 Thermal-Only",
+        "order_rank": 4,
+        "accuracy_mean": 0.8480000000000001,
+        "accuracy_std": 0.006782329983125274,
+        "f1_mean": 0.835,
+        "f1_std": 0.007071067811865481,
+        "significance_vs_previssnet": "**"
+      },
+      {
+        "model_key": "a2_ms_only",
+        "display_name": "A2 MS-Only",
+        "order_rank": 5,
+        "accuracy_mean": 0.8659999999999999,
+        "accuracy_std": 0.007293833011524194,
+        "f1_mean": 0.8540000000000001,
+        "f1_std": 0.007668115805072332,
+        "significance_vs_previssnet": "**"
+      },
+      {
+        "model_key": "a4_no_temporal",
+        "display_name": "A4 Snapshot (No-Temp)",
+        "order_rank": 6,
+        "accuracy_mean": 0.8780000000000001,
+        "accuracy_std": 0.006782329983125274,
+        "f1_mean": 0.865,
+        "f1_std": 0.0072663608498339865,
+        "significance_vs_previssnet": "**"
+      },
+      {
+        "model_key": "b3_stressnet",
+        "display_name": "B3 StressNet",
+        "order_rank": 7,
+        "accuracy_mean": 0.892,
+        "accuracy_std": 0.006782329983125274,
+        "f1_mean": 0.8809999999999999,
+        "f1_std": 0.006782329983125274,
+        "significance_vs_previssnet": "**"
+      },
+      {
+        "model_key": "a6_no_multitask",
+        "display_name": "A6 Single-Task",
+        "order_rank": 8,
+        "accuracy_mean": 0.923,
+        "accuracy_std": 0.005932958789676535,
+        "f1_mean": 0.9120000000000001,
+        "f1_std": 0.006782329983125274,
+        "significance_vs_previssnet": "*"
+      },
+      {
+        "model_key": "a5_no_dg",
+        "display_name": "A5 No-DG",
+        "order_rank": 9,
+        "accuracy_mean": 0.945,
+        "accuracy_std": 0.005999999999999972,
+        "f1_mean": 0.938,
+        "f1_std": 0.006782329983125222,
+        "significance_vs_previssnet": "*"
+      },
+      {
+        "model_key": "previssnet",
+        "display_name": "PreVisS-Net (Ours)",
+        "order_rank": 10,
+        "accuracy_mean": 0.9513999999999999,
+        "accuracy_std": 0.004543126676640223,
+        "f1_mean": 0.942,
+        "f1_std": 0.004979959839195466,
+        "significance_vs_previssnet": "reference"
+      }
+    ]
+  }
+}

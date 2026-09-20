@@ -1,0 +1,19 @@
+{
+  "figure_stem": "fig07_discriminator",
+  "created_at": "2026-08-28T03:42:00.668888+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig07_Domain_Discriminator_Dynamics",
+    "initial_disc_acc": 0.96,
+    "final_disc_acc": 0.5051101384075914,
+    "a5_no_dg_final_acc": 0.97,
+    "target_chance_acc": 0.5,
+    "n_steps": 51
+  }
+}

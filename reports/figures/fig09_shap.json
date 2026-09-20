@@ -1,0 +1,62 @@
+{
+  "figure_stem": "fig09_shap",
+  "created_at": "2026-08-28T03:42:05.080565+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig09_SHAP_Index_Attribution",
+    "stresses": {
+      "water": {
+        "expected_top_index": "cwsi_or_proxy",
+        "actual_top_index": "cwsi_or_proxy",
+        "convention_agreement": 1,
+        "mean_abs_shap": {
+          "mcari": 0.025945670833055032,
+          "thermal_available": 0.03267820661409923,
+          "gndvi": 0.04324712643710443,
+          "ci_red_edge": 0.05730133447396593,
+          "savi": 0.07699354856931531,
+          "ndvi": 0.09309364972069702,
+          "ndre": 0.10872636350443121,
+          "cwsi_or_proxy": 0.1750286840683851
+        }
+      },
+      "nutrient": {
+        "expected_top_index": "ndre",
+        "actual_top_index": "ndre",
+        "convention_agreement": 1,
+        "mean_abs_shap": {
+          "thermal_available": 0.014378886439950436,
+          "cwsi_or_proxy": 0.028064357063350115,
+          "savi": 0.04603365560011894,
+          "ndvi": 0.06773966437115392,
+          "gndvi": 0.07707096996422887,
+          "mcari": 0.10133294513878228,
+          "ci_red_edge": 0.1403202461568388,
+          "ndre": 0.16532461711895516
+        }
+      },
+      "heat": {
+        "expected_top_index": "cwsi_or_proxy",
+        "actual_top_index": "cwsi_or_proxy",
+        "convention_agreement": 1,
+        "mean_abs_shap": {
+          "mcari": 0.018329704238650362,
+          "ci_red_edge": 0.02798718449831671,
+          "gndvi": 0.035921684859312596,
+          "ndre": 0.06170092193080277,
+          "savi": 0.07166537675872578,
+          "ndvi": 0.08356273160194023,
+          "thermal_available": 0.1268677230752147,
+          "cwsi_or_proxy": 0.1548144191585792
+        }
+      }
+    },
+    "convention_concordance": "100% agreement across water, nutrient, and heat stress drivers."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "figure_stem": "fig01_pipeline",
+  "created_at": "2026-08-28T03:41:51.842790+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig01_Pipeline",
+    "cadence_days": [
+      0.0,
+      3.0,
+      7.0,
+      10.0
+    ],
+    "dimensions": {
+      "input_rgb": "(B, K, 3, 224, 224)",
+      "input_indices": "(B, K, 8)",
+      "input_thermal": "(B, K, 1, 224, 224)",
+      "fused_embedding": "(B, K, 128)",
+      "trend_embedding": "(B, 128)"
+    },
+    "heads": [
+      "Water_CWSI",
+      "Nutrient_4Class",
+      "Heat_Binary"
+    ]
+  }
+}

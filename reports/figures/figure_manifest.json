@@ -1,0 +1,270 @@
+{
+  "benchmark": "PreVisS-Net Publication Figure Suite (Step 7)",
+  "generated_at": "2026-08-28T03:42:13.619135+00:00",
+  "total_figures": 14,
+  "successful_figures": 14,
+  "failed_figures": 0,
+  "total_elapsed_seconds": 23.35,
+  "target_dpi": 600,
+  "figures": [
+    {
+      "figure_number": 1,
+      "figure_id": "fig01_pipeline",
+      "title": "End-to-End System Pipeline & Workflow",
+      "category": "architecture",
+      "script_path": "scripts/figures/fig01_pipeline.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.658,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig01_pipeline.png",
+        "pdf": "reports/figures/fig01_pipeline.pdf"
+      },
+      "sidecar_json": "reports/figures/fig01_pipeline.json",
+      "source_metrics": {
+        "results/metrics/training_matrix.json": "7209275d6b421deff4f412bf158b9cc707860c57e2d1a312602792a08179363b"
+      }
+    },
+    {
+      "figure_number": 2,
+      "figure_id": "fig02_fusion",
+      "title": "Cross-Attention Multi-Modal Early Fusion (AFAM)",
+      "category": "architecture",
+      "script_path": "scripts/figures/fig02_fusion.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.596,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig02_fusion.png",
+        "pdf": "reports/figures/fig02_fusion.pdf"
+      },
+      "sidecar_json": "reports/figures/fig02_fusion.json",
+      "source_metrics": {
+        "results/metrics/modality_attention.json": "62ad5e6ebfc2f3e4687373a28d9cf5806c345fe81170f652b70fbc014f4d5e5c"
+      }
+    },
+    {
+      "figure_number": 3,
+      "figure_id": "fig03_temporal",
+      "title": "Temporal ViT Dynamics & Sequence Attention",
+      "category": "architecture",
+      "script_path": "scripts/figures/fig03_temporal.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.701,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig03_temporal.png",
+        "pdf": "reports/figures/fig03_temporal.pdf"
+      },
+      "sidecar_json": "reports/figures/fig03_temporal.json",
+      "source_metrics": {
+        "results/metrics/temporal_dynamics.json": "5c29221d98441904abe2d2f7796ee700d56d5e1a49508c9551b305a32c5f0ca3"
+      }
+    },
+    {
+      "figure_number": 4,
+      "figure_id": "fig04_same_domain",
+      "title": "Same-Domain Water-Stress Performance Across 10 Evaluated Methods",
+      "category": "performance",
+      "script_path": "scripts/figures/fig04_same_domain.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.384,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig04_same_domain.png",
+        "pdf": "reports/figures/fig04_same_domain.pdf"
+      },
+      "sidecar_json": "reports/figures/fig04_same_domain.json",
+      "source_metrics": {
+        "results/metrics/evaluation_results.json": "a64c8fe262fedfebe92b555d8298d9040674f0360f3a1921a243ed1c512f2887",
+        "results/metrics/significance.json": "776ba0117bdc952819de21ffb29cc1e34b34ace2272a099a401df29959e278e3"
+      }
+    },
+    {
+      "figure_number": 5,
+      "figure_id": "fig05_zeroshot",
+      "title": "Zero-Shot Out-of-Distribution Transfer & Generalization Gap",
+      "category": "performance",
+      "script_path": "scripts/figures/fig05_zeroshot.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.396,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig05_zeroshot.png",
+        "pdf": "reports/figures/fig05_zeroshot.pdf"
+      },
+      "sidecar_json": "reports/figures/fig05_zeroshot.json",
+      "source_metrics": {
+        "results/metrics/evaluation_results.json": "a64c8fe262fedfebe92b555d8298d9040674f0360f3a1921a243ed1c512f2887"
+      }
+    },
+    {
+      "figure_number": 6,
+      "figure_id": "fig06_leadtime",
+      "title": "Pre-Visual Early-Warning Lead-Time Distribution & FEWR",
+      "category": "performance",
+      "script_path": "scripts/figures/fig06_leadtime.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.325,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig06_leadtime.png",
+        "pdf": "reports/figures/fig06_leadtime.pdf"
+      },
+      "sidecar_json": "reports/figures/fig06_leadtime.json",
+      "source_metrics": {
+        "results/metrics/leadtime.json": "06fc221ae895b15da8216b29d51455c176bb925807f5e2269ec74de1ecc524a3"
+      }
+    },
+    {
+      "figure_number": 7,
+      "figure_id": "fig07_discriminator",
+      "title": "Domain-Discriminator Convergence Under Adversarial GRL",
+      "category": "performance",
+      "script_path": "scripts/figures/fig07_discriminator.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.432,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig07_discriminator.png",
+        "pdf": "reports/figures/fig07_discriminator.pdf"
+      },
+      "sidecar_json": "reports/figures/fig07_discriminator.json",
+      "source_metrics": {
+        "results/metrics/discriminator_training.json": "fe3538c8a5533111ce9704deed2805bd6eefd7acbcc43a77a4e8ec1765bcbef4"
+      }
+    },
+    {
+      "figure_number": 8,
+      "figure_id": "fig08_edge",
+      "title": "Edge Inference Latency & Model Size Trade-Off",
+      "category": "performance",
+      "script_path": "scripts/figures/fig08_edge.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.454,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig08_edge.png",
+        "pdf": "reports/figures/fig08_edge.pdf"
+      },
+      "sidecar_json": "reports/figures/fig08_edge.json",
+      "source_metrics": {
+        "results/benchmarks/edge_benchmark.json": "526fafbaf251f41a3e511536392f8f264f2efc1b00b28a9b55e553682e02a087"
+      }
+    },
+    {
+      "figure_number": 9,
+      "figure_id": "fig09_shap",
+      "title": "SHAP Physiological Index Attribution Beeswarm per Stress Type",
+      "category": "interpretability",
+      "script_path": "scripts/figures/fig09_shap.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 3.102,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig09_shap.png",
+        "pdf": "reports/figures/fig09_shap.pdf"
+      },
+      "sidecar_json": "reports/figures/fig09_shap.json",
+      "source_metrics": {
+        "results/metrics/shap_values.npz": "b4dfe8d4025a58a27f3cad97918546269470baa2c60281e8c2fa3c4d8c9fd676"
+      }
+    },
+    {
+      "figure_number": 10,
+      "figure_id": "fig10_gradcam",
+      "title": "Grad-CAM Canopy Saliency Heatmap on Field Orthomosaic",
+      "category": "interpretability",
+      "script_path": "scripts/figures/fig10_gradcam.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 2.11,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig10_gradcam.png",
+        "pdf": "reports/figures/fig10_gradcam.pdf"
+      },
+      "sidecar_json": "reports/figures/fig10_gradcam.json",
+      "source_metrics": {
+        "results/metrics/evaluation_results.json": "a64c8fe262fedfebe92b555d8298d9040674f0360f3a1921a243ed1c512f2887"
+      }
+    },
+    {
+      "figure_number": 11,
+      "figure_id": "fig11_advisory",
+      "title": "Field Stress Decision Advisory Report",
+      "category": "interpretability",
+      "script_path": "scripts/figures/fig11_advisory.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 2.088,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig11_advisory.png",
+        "pdf": "reports/figures/fig11_advisory.pdf"
+      },
+      "sidecar_json": "reports/figures/fig11_advisory.json",
+      "source_metrics": {
+        "results/metrics/leadtime.json": "06fc221ae895b15da8216b29d51455c176bb925807f5e2269ec74de1ecc524a3",
+        "results/metrics/shap_values.npz": "b4dfe8d4025a58a27f3cad97918546269470baa2c60281e8c2fa3c4d8c9fd676"
+      }
+    },
+    {
+      "figure_number": 12,
+      "figure_id": "fig12_waterfall",
+      "title": "Architectural Component Ablation Waterfall",
+      "category": "ablation",
+      "script_path": "scripts/figures/fig12_waterfall.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.359,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig12_waterfall.png",
+        "pdf": "reports/figures/fig12_waterfall.pdf"
+      },
+      "sidecar_json": "reports/figures/fig12_waterfall.json",
+      "source_metrics": {
+        "results/metrics/evaluation_results.json": "a64c8fe262fedfebe92b555d8298d9040674f0360f3a1921a243ed1c512f2887",
+        "results/metrics/significance.json": "776ba0117bdc952819de21ffb29cc1e34b34ace2272a099a401df29959e278e3",
+        "results/metrics/leadtime.json": "06fc221ae895b15da8216b29d51455c176bb925807f5e2269ec74de1ecc524a3"
+      }
+    },
+    {
+      "figure_number": 13,
+      "figure_id": "fig13_multitask",
+      "title": "Multi-Task vs Single-Task Regularization Benefit",
+      "category": "ablation",
+      "script_path": "scripts/figures/fig13_multitask.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.366,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig13_multitask.png",
+        "pdf": "reports/figures/fig13_multitask.pdf"
+      },
+      "sidecar_json": "reports/figures/fig13_multitask.json",
+      "source_metrics": {
+        "results/metrics/multitask_comparison.json": "8018e3fa9e080974d32e8855c01a3f4516148183eb777e5e8985f48d3536b448"
+      }
+    },
+    {
+      "figure_number": 14,
+      "figure_id": "fig14_radar",
+      "title": "6-Dimensional Comprehensive System Performance Radar",
+      "category": "synthesis",
+      "script_path": "scripts/figures/fig14_radar.py",
+      "status": "SUCCESS",
+      "elapsed_seconds": 1.376,
+      "dpi": 600,
+      "exported_files": {
+        "png": "reports/figures/fig14_radar.png",
+        "pdf": "reports/figures/fig14_radar.pdf"
+      },
+      "sidecar_json": "reports/figures/fig14_radar.json",
+      "source_metrics": {
+        "results/metrics/evaluation_results.json": "a64c8fe262fedfebe92b555d8298d9040674f0360f3a1921a243ed1c512f2887",
+        "results/metrics/leadtime.json": "06fc221ae895b15da8216b29d51455c176bb925807f5e2269ec74de1ecc524a3",
+        "results/metrics/xai_agreement.json": "61d0b94a87d96ce6e59da76cb0df566135d99448aed3b85c4fddc2f1d98d2c4c",
+        "results/benchmarks/edge_benchmark.json": "526fafbaf251f41a3e511536392f8f264f2efc1b00b28a9b55e553682e02a087"
+      }
+    }
+  ]
+}

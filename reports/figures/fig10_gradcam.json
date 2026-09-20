@@ -1,0 +1,66 @@
+{
+  "figure_stem": "fig10_gradcam",
+  "created_at": "2026-08-28T03:42:07.341315+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig10_GradCAM_Field_Heatmap",
+    "n_cases": 6,
+    "cases": [
+      {
+        "plot_id": "Plot A-14",
+        "category": "True Positive (TP)",
+        "condition": "Early Water Stress (Stage 1)",
+        "pred_prob_stress": 0.942,
+        "pred_label": "Water Stress",
+        "true_label": "Water Stress"
+      },
+      {
+        "plot_id": "Plot B-08",
+        "category": "True Positive (TP)",
+        "condition": "Incipient Canopy Deficit",
+        "pred_prob_stress": 0.895,
+        "pred_label": "Water Stress",
+        "true_label": "Water Stress"
+      },
+      {
+        "plot_id": "Plot C-22",
+        "category": "True Positive (TP)",
+        "condition": "Sub-Visual Stomatal Closure",
+        "pred_prob_stress": 0.918,
+        "pred_label": "Water Stress",
+        "true_label": "Water Stress"
+      },
+      {
+        "plot_id": "Plot D-05 (Failure Case)",
+        "category": "False Positive (FP)",
+        "condition": "Furrow Edge & Shadow Artifact",
+        "pred_prob_stress": 0.642,
+        "pred_label": "Water Stress",
+        "true_label": "Healthy Control"
+      },
+      {
+        "plot_id": "Plot E-11",
+        "category": "True Negative (TN)",
+        "condition": "Vigorous Healthy Canopy",
+        "pred_prob_stress": 0.062,
+        "pred_label": "Healthy Control",
+        "true_label": "Healthy Control"
+      },
+      {
+        "plot_id": "Plot F-03",
+        "category": "True Negative (TN)",
+        "condition": "Adequately Irrigated Control",
+        "pred_prob_stress": 0.088,
+        "pred_label": "Healthy Control",
+        "true_label": "Healthy Control"
+      }
+    ],
+    "transparency_note": "Includes intentional false-positive edge shadow failure case (Plot D-05)."
+  }
+}

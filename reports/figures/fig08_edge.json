@@ -1,0 +1,57 @@
+{
+  "figure_stem": "fig08_edge",
+  "created_at": "2026-08-28T03:42:02.125956+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig08_Edge_Benchmark",
+    "variants": [
+      "full_fp32",
+      "pruned_fp32",
+      "pruned_int8",
+      "coreml_int8"
+    ],
+    "tiers": [
+      "mps_gpu",
+      "cpu_1thread",
+      "coreml_ane"
+    ],
+    "sizes_mb": [
+      19.43,
+      13.6,
+      3.58,
+      2.85
+    ],
+    "f1_scores": [
+      0.884,
+      0.878,
+      0.872,
+      0.869
+    ],
+    "latencies_p95_ms": {
+      "mps_gpu": {
+        "full_fp32": 9.334606099400844,
+        "pruned_fp32": 9.281716451005195,
+        "pruned_int8": null,
+        "coreml_int8": null
+      },
+      "cpu_1thread": {
+        "full_fp32": 123.8295480981833,
+        "pruned_fp32": 123.32496874769276,
+        "pruned_int8": 120.14672079949378,
+        "coreml_int8": 117.85
+      },
+      "coreml_ane": {
+        "full_fp32": null,
+        "pruned_fp32": null,
+        "pruned_int8": null,
+        "coreml_int8": 3.94
+      }
+    }
+  }
+}

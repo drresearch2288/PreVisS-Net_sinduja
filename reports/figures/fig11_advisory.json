@@ -1,0 +1,40 @@
+{
+  "figure_stem": "fig11_advisory",
+  "created_at": "2026-08-28T03:42:09.341714+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig11_Field_Stress_Advisory",
+    "advisory": {
+      "plot_id": "Plot-A14",
+      "field_name": "Potato Experimental Field A (Holdout)",
+      "advisory_date": "2026-07-28",
+      "stress_type": "water",
+      "confidence": 0.914,
+      "severity": "moderate",
+      "lead_time_days": 18.5,
+      "lead_time_supported": 1,
+      "top_index": "cwsi_or_proxy",
+      "top_index_contribution": 0.382,
+      "top_region_bbox": [
+        75,
+        65,
+        160,
+        155
+      ],
+      "driving_flight": "Flight 4 (2026-07-28, Weight: 0.42)",
+      "recommended_action": "Initiate targeted deficit irrigation immediately in Plot-A14 (Canopy Sector B2). Estimated 18.5 days lead-time before irreversible chlorosis and yield loss.",
+      "caveats": [
+        "Thermal channel reconstructed via Multispectral Proxy (FLIR payload offline).",
+        "Lead-time estimate calibrated on staged pre-visual ground truth (D3 Hyperspectral).",
+        "Decision support only: scouting recommended before high-volume chemical treatment."
+      ]
+    },
+    "rendered_html_path": "reports/advisories/sample_advisory.html"
+  }
+}

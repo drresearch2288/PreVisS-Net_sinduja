@@ -1,0 +1,33 @@
+{
+  "figure_stem": "fig06_leadtime",
+  "created_at": "2026-08-28T03:41:59.243722+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig06_LeadTime_Distribution",
+    "dataset": "D3_Hyperspectral",
+    "target_lead_time_days": 15.0,
+    "models": {
+      "previssnet": {
+        "median_days": 18.771419541019903,
+        "fewr": "4.8%",
+        "n_samples": 30
+      },
+      "a4_no_temporal": {
+        "median_days": 8.786905210272046,
+        "fewr": "18.6%",
+        "n_samples": 30
+      },
+      "b1_cwsi": {
+        "median_days": 0.0,
+        "fewr": "24.5%",
+        "note": "0 by construction"
+      }
+    }
+  }
+}

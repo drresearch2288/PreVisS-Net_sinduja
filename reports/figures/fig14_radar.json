@@ -1,0 +1,97 @@
+{
+  "figure_stem": "fig14_radar",
+  "created_at": "2026-08-28T03:42:13.535013+00:00",
+  "exported_formats": [
+    "png",
+    "pdf"
+  ],
+  "dpi": 600,
+  "source_metrics_file": null,
+  "source_metrics_sha256": null,
+  "data_payload": {
+    "figure_name": "Fig14_Performance_Radar",
+    "axes": [
+      "Same-Domain\nAccuracy ($F_1$)",
+      "OOD Generalization\n($1 - \\text{Gap}/100$)",
+      "Early Lead Time\n(Normalized / 25d)",
+      "Explainability\nAgreement ($\\kappa$)",
+      "Inference Speed\n($1 - \\text{Lat}/150\\text{ms}$)",
+      "Model Compactness\n($1 - \\text{Size}/25\\text{MB}$)"
+    ],
+    "models": [
+      "previssnet",
+      "b3_stressnet",
+      "b2_vi_classical",
+      "b1_cwsi"
+    ],
+    "normalized_scores": {
+      "previssnet": [
+        0.942,
+        0.9216666666666667,
+        0.7508567816407961,
+        0.8121,
+        0.9378666666666666,
+        0.806
+      ],
+      "b3_stressnet": [
+        0.8809999999999999,
+        0.7910000000000001,
+        0.28800000000000003,
+        0.0,
+        0.9033333333333333,
+        0.43200000000000005
+      ],
+      "b2_vi_classical": [
+        0.768,
+        0.7503333333333334,
+        0.1,
+        0.0,
+        0.986,
+        0.968
+      ],
+      "b1_cwsi": [
+        0.715,
+        0.7463333333333333,
+        0.0,
+        0.0,
+        0.9966666666666667,
+        0.9996
+      ]
+    },
+    "raw_metrics": {
+      "previssnet": {
+        "same_domain_f1": 0.942,
+        "gen_gap_pts": 7.833333333333325,
+        "lead_time_days": 18.771419541019903,
+        "explainability_kappa": 0.8121,
+        "latency_p95_ms": 9.32,
+        "model_size_mb": 4.85
+      },
+      "b3_stressnet": {
+        "same_domain_f1": 0.8809999999999999,
+        "gen_gap_pts": 20.899999999999984,
+        "lead_time_days": 7.2,
+        "explainability_kappa": "n/a",
+        "latency_p95_ms": 14.5,
+        "model_size_mb": 14.2
+      },
+      "b2_vi_classical": {
+        "same_domain_f1": 0.768,
+        "gen_gap_pts": 24.966666666666658,
+        "lead_time_days": 2.5,
+        "explainability_kappa": "n/a",
+        "latency_p95_ms": 2.1,
+        "model_size_mb": 0.8
+      },
+      "b1_cwsi": {
+        "same_domain_f1": 0.715,
+        "gen_gap_pts": 25.366666666666664,
+        "lead_time_days": 0.0,
+        "explainability_kappa": "n/a",
+        "latency_p95_ms": 0.5,
+        "model_size_mb": 0.01
+      }
+    },
+    "normalization_rules": "Axis Normalizations: 1. Macro-F1 in [0,1]; 2. Generalization = 1 - Gap/100; 3. Lead Time = Days / 25d; 4. Explainability = Cohen's kappa (n/a = 0);\n5. Speed = 1 - p95 Latency / 150ms; 6. Compactness = 1 - Size / 25MB. Baselines B1/B2/B3 lack physiological attribution mechanisms (plotted as 0, marked n/a)."
+  }
+}
