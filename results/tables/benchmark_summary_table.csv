@@ -1,0 +1,11 @@
+Model,D1 Test F1 (Mean ± Std),D1 Test Accuracy,D3 Hyperspectral F1,D4 Global Nitrogen F1,D5 Kaggle Env F1,Generalization Gap (pts),Target Met (<= 15 pts)
+previssnet,60.00 ± 48.99%,60.00%,N/A,N/A,N/A,N/A,False
+b1_cwsi,100.00 ± 0.00%,100.00%,N/A,N/A,N/A,N/A,False
+b2_vi_classical,20.00 ± 40.00%,20.00%,N/A,N/A,N/A,N/A,False
+b3_stressnet,60.00 ± 48.99%,60.00%,N/A,N/A,N/A,N/A,False
+a1_rgb_only,20.00 ± 40.00%,20.00%,N/A,N/A,N/A,N/A,False
+a2_ms_only,20.00 ± 40.00%,20.00%,N/A,N/A,N/A,N/A,False
+a3_thermal_only,40.00 ± 48.99%,40.00%,N/A,N/A,N/A,N/A,False
+a4_no_temporal,80.00 ± 40.00%,80.00%,N/A,N/A,N/A,N/A,False
+a5_no_dg,80.00 ± 40.00%,80.00%,N/A,N/A,N/A,N/A,False
+a6_no_multitask,40.00 ± 48.99%,40.00%,N/A,N/A,N/A,N/A,False

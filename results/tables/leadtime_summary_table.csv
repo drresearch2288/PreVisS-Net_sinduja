@@ -1,0 +1,11 @@
+Model,Mean Lead Time (days),95% Bootstrap CI,Day-10 Detection Rate,False Early-Warning Rate,Operating Threshold,Target Met (>= 15d)
+previssnet,N/A,N/A,N/A,0.0%,0.95,False
+b1_cwsi,0 (by construction),N/A,0.0%,0.0%,0.50,False (by design)
+b2_vi_classical,N/A,N/A,N/A,0.0%,0.95,False
+b3_stressnet,N/A,N/A,N/A,0.0%,0.95,False
+a1_rgb_only,N/A,N/A,N/A,0.0%,0.95,False
+a2_ms_only,N/A,N/A,N/A,0.0%,0.95,False
+a3_thermal_only,N/A,N/A,N/A,0.0%,0.95,False
+a4_no_temporal,N/A,N/A,N/A,0.0%,0.95,False
+a5_no_dg,N/A,N/A,N/A,0.0%,0.95,False
+a6_no_multitask,N/A,N/A,N/A,0.0%,0.95,False
